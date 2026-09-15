@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300">
+  <rect width="760" height="300" fill="#eeeeee"/>
+  <rect x="55" y="65" width="290" height="170" rx="10" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text x="200" y="98" text-anchor="middle" font-family="Arial" font-size="24" fill="#222">СЖАТИЕ ИЗОБРАЖЕНИЙ</text>
+
+  <rect x="80" y="125" width="125" height="75" rx="7" fill="#dddddd" stroke="#555" stroke-width="1"/>
+  <text x="142" y="158" text-anchor="middle" font-family="Arial" font-size="18" fill="#222">Без потерь</text>
+  <text x="142" y="183" text-anchor="middle" font-family="Arial" font-size="14" fill="#555">RLE, LZW, Хаффман</text>
+
+  <rect x="215" y="125" width="105" height="75" rx="7" fill="#dddddd" stroke="#555" stroke-width="1"/>
+  <text x="267" y="158" text-anchor="middle" font-family="Arial" font-size="18" fill="#222">С потерями</text>
+  <text x="267" y="183" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">Квантование</text>
+  <text x="267" y="198" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">Субдискретизация</text>
+
+  <line x1="375" y1="150" x2="430" y2="150" stroke="#333" stroke-width="3"/>
+  <polygon points="430,150 417,142 417,158" fill="#333"/>
+
+  <rect x="450" y="50" width="255" height="55" rx="8" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="577" y="84" text-anchor="middle" font-family="Arial" font-size="17" fill="#222">RLE • LZW • Хаффман</text>
+
+  <rect x="450" y="120" width="255" height="55" rx="8" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="577" y="154" text-anchor="middle" font-family="Arial" font-size="17" fill="#222">Квантование цветов</text>
+
+  <rect x="450" y="190" width="255" height="55" rx="8" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="577" y="224" text-anchor="middle" font-family="Arial" font-size="17" fill="#222">Субдискретизация 4:2:0</text>
+</svg>
